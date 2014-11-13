@@ -1,0 +1,17 @@
+[package]
+
+name = "axis_helper"
+version = "0.0.1"
+authors = [
+    "Sven Nilsen <bvssvni@gmail.com>"
+]
+tags = []
+
+[lib]
+
+name = "axis_helper"
+path = "src/lib.rs"
+
+[dependencies.gfx]
+
+git = "http://github.com/gfx-rs/gfx-rs"
